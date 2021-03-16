@@ -1,5 +1,5 @@
 import React from "react";
-import Links from "./Links";
+import Links from "./HomeLinks";
 
 const FlowerBorder = () => {
   return (

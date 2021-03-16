@@ -1,0 +1,54 @@
+* {
+  /* border: 1px solid grey; */
+}
+
+/* ----- LINKS ----- */
+/* .other-links-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 10rem;
+  margin: 2rem;
+  padding: 2rem;
+} */
+
+/* ----- ROOTS ----- */
+.roots-text {
+  text-align: center;
+  margin: 20rem;
+  /* padding: 2rem; */
+}
+.roots-img {
+  max-width: max-content;
+  margin-top: 2rem;
+}
+
+/* -----CONTACT CONTAINER ----- */
+.contact-container {
+  background-color: #ffffff;
+  display: flex;
+  background-image: url("https://i.ibb.co/ymzjNXw/border3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 20rem;
+}
+.class2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* line-height: 7rem; */
+  /* margin: 2rem; */
+  /* padding: 2rem; */
+}
+
+/* ----- ABOUT CONTAINER ----- */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff
+}

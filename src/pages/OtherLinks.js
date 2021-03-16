@@ -6,7 +6,7 @@ import Projects from "../pages/Projects";
 
 const Links = () => {
   return (
-    <div className="links-container">
+    <div className="other-links-container">
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
