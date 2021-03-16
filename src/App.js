@@ -11,8 +11,6 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <div className="App">
-      <FlowerBorder />
-
       <Switch>
         <Route exact path="/About">
           <About />
@@ -24,6 +22,9 @@ function App() {
           <Projects />
         </Route>
         <Route exact path="/">
+          <div className="flower-border">
+          <FlowerBorder />
+          </div>
           <div className="Seedlings">
             <Seedlings />
           </div>
