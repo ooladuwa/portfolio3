@@ -24,10 +24,10 @@ function App() {
           <Projects />
         </Route>
         <Route exact path="/">
-          <div className="next">
+          <div className="Seedlings">
             <Seedlings />
           </div>
-          <div className="next1">
+          <div className="Sunshine">
             <Sunshine />
           </div>
         </Route>

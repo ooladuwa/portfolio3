@@ -9,7 +9,7 @@ const Sunshine = () => {
         alt="sunshine"
         className="sunshine-img"
       />
-      <Roots />
+      {/* <Roots /> */}
     </section>
   );
 };
