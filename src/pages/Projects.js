@@ -4,8 +4,8 @@ import OtherLinks from "./OtherLinks";
 const Projects = () => {
   return (
     <div className="projects-container">
-      <OtherLinks /> 
      
+      <OtherLinks /> 
     </div>
   )
 };

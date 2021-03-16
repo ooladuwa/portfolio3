@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import About from "./About";
-import Contact from "./Contact";
-import Projects from "./Projects";
+import { Link, Switch, Route } from "react-router-dom";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Projects from "../pages/Projects";
 
-const OtherLinks = () => {
+const Links = () => {
   return (
     <div className="other-links-container">
       <Link to="/">Home</Link>
@@ -15,4 +15,4 @@ const OtherLinks = () => {
   );
 };
 
-export default OtherLinks;
+export default Links;
