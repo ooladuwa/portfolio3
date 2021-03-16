@@ -1,17 +1,13 @@
 import React from 'react'
-import Links from '../components/Links'
+import OtherLinks from "./OtherLinks"
 import Roots from '../components/Roots'
+import "./pages.css"
 
 const About = () => {
   return (
-    <div>
-      ABOUT PAGE
-      <div className="links">
-      </div>
-      <Links />
-      <div className="roots">
+    <div className="about-container">
+      <OtherLinks/> 
       <Roots />
-      </div>
     </div>
   )
 }

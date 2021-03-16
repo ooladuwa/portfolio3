@@ -1,0 +1,38 @@
+ {
+}
+
+/* ----- LINKS ----- */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.other-links-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 7rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+/* ----- ROOTS ----- */
+.roots-text {
+  text-align: center;
+  margin: 10rem 2rem 2rem 2rem;
+  /* padding: 2rem; */
+}
+.roots-img {
+  margin-top: 2rem;
+}
+
+/* -----CONTACT CONTAINER ----- */
+.contact-container {
+  background-color: #ffffff;
+  display: flex;
+  /* background-image: url("https://i.ibb.co/ymzjNXw/border3.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
