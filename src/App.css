@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid grey; */
+}
+/* general styles */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+  background-color: #feb239;
+
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  display: flex;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 3px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+section {
+  padding: 4% 0;
+  /* max-width: 32%; */
+}
+a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+}
+a:hover {
+  color: #4aab00;
+}
+
+/* ---------------------------END OF RESET----------------------------- */
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+/* ----- FLOWER BORDER ----- */
+.section1 {
+}
+
+.flower-border-img {
+  max-width: fit-content;
+}
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 10rem;
+  margin-top: -60%;
+}
+
+/* ----- SEEDLINGS ----- */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.intro {
+}
+.intro-p {
+  margin: 5rem 5rem 5rem 1rem;
+  padding: 1rem;
+}
+.growth {
+  text-align: center;
+}
+.seedling-img {
+  max-width: fit-content;
+  margin-bottom: 2rem;
+  margin-top: -15rem;
+}
+
+/* ----- SUNSHINE ----- */
+.section3 {
+}
+.sunshine-img {
+}
+.roots-text {
+  text-align: center;
+  margin: 10rem 2rem 2rem 2rem;
+  /* padding: 2rem; */
+}
+.roots-img {
+  margin-top: 2rem;
+}
