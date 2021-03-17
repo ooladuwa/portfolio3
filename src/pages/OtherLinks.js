@@ -5,10 +5,9 @@ import { Link, Switch, Route } from "react-router-dom";
 const Links = () => {
   return (
     <div className="otherlinks-container aboutlinks-container contactlinks-container projects-container">
-      <Link className="otherlinks" to="/">Home</Link>
-      <Link className="otherlinks" to="/about">About</Link>
-      <Link className="otherlinks" to="/contact">Contact</Link>
-      <Link className="otherlinks" to="/projects">Projects</Link>
+      <Link className="otherlinks about-otherLinks" to="/">Home</Link>
+      <Link className="otherlinks about-otherLinks" to="/about">About</Link>
+      <Link className="otherlinks about-otherLinks" to="/projects">Projects</Link>
     </div>
   );
 };
