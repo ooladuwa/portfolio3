@@ -27,12 +27,17 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.socials-button {
+  margin-right: 1rem;
+  border: 1px solid #38FF4F;
+  
+}
 
 /* ----- ABOUT CONTAINER ----- */
 .about-container {
   display: flex;
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: black;
 }
 .aboutlinks-container {
   display: flex;
