@@ -12,7 +12,6 @@ const About = () => {
       <Roots />
       <div className="getMe">
         <Intro />
-        <Socials />
       </div>
     </div>
   )

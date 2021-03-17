@@ -1,18 +1,11 @@
 * {
-  /* border: 1px solid grey; */
+  border: 1px solid grey;
 }
 
-/* ----- LINKS ----- */
-/* .other-links-container {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 10rem;
-  margin: 2rem;
-  padding: 2rem;
-} */
+/* ----- INTRO ----- */
+.intro {
+  line-height: 3rem;
+}
 
 /* ----- ROOTS ----- */
 .roots-text {
@@ -25,10 +18,26 @@
   margin-top: 2rem;
 }
 
+/* ----- SOCIALS ----- */
+.socialsContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ----- ABOUT CONTAINER ----- */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.about {
+}
+
 /* -----CONTACT CONTAINER ----- */
 .contact-container {
   background-color: #ffffff;
   display: flex;
+  flex-direction: row;
   background-image: url("https://i.ibb.co/ymzjNXw/border3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,9 +55,15 @@
   /* padding: 2rem; */
 }
 
-/* ----- ABOUT CONTAINER ----- */
-.about-container {
+/*----- OTHER LINKS ----- */
+.other-links-container {
+  /* background-color: #ffffff; */
   display: flex;
-  flex-direction: row;
-  background-color: #ffffff
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 10rem;
+  margin-left: -20rem;
+  margin-top: -17rem;
+  padding: 2rem;
 }

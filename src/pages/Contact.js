@@ -1,7 +1,9 @@
 import React from 'react'
 import OtherLinks from './OtherLinks'
+import Socials from "../components/Socials"
 import "./pages.css"
 import { Link, Switch, Route } from "react-router-dom";
+import Intro from '../components/Intro';
 
 const Contact = () => {
   return (
@@ -9,11 +11,10 @@ const Contact = () => {
         {/* <img 
           src="https://i.ibb.co/ymzjNXw/border3.png"  alt="contact" 
         className="contact-img"/> */}
-        
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/projects">Projects</Link>
+      <OtherLinks />
+      <div className="socials-container">
+        <Socials />
+      </div>
    
     </div>
   )
