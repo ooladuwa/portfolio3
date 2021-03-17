@@ -90,7 +90,7 @@ a:hover {
 }
 
 .homelinks {
-  color:#feb239;
+  color:black;
   font-weight: 900;
 }
 
@@ -103,6 +103,10 @@ a:hover {
   position: sticky;
   margin-bottom: 2rem;
 }
+.intro {
+  color: black;
+  font-weight: 700;
+}
 .intro h3{
   margin-top: 5rem;
 }
@@ -112,6 +116,10 @@ a:hover {
 }
 .growth {
   text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: -3rem;
 }
 .seedling-img {
   max-width: max-content;
