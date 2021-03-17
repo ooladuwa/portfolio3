@@ -1,16 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Projects from "../pages/Projects";
 
 const Links = () => {
   return (
-    <div className="links-container">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/projects">Projects</Link>
+    <div className="homelinks-container">
+      <Link className="homelinks" to="/">Home</Link>
+      <Link className="homelinks" to="/about">About</Link>
+      <Link className="homelinks" to="/contact">Contact</Link>
+      <Link className="homelinks" to="/projects">Projects</Link>
     </div>
   );
 };

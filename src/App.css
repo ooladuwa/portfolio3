@@ -59,7 +59,12 @@ a:hover {
 .App {
   display: flex;
   flex-direction: row;
-  background-color: #feb239;
+  color: #feb239;
+  /* background-color: #feb239; */
+  background-image: url("https://i.ibb.co/1vLLJwL/grass-background-1.jpg");
+  /* background-image: url("https://i.ibb.co/S0SDL44/grassland-tree-background.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
@@ -70,14 +75,23 @@ a:hover {
 .flower-border-img {
   max-width: fit-content;
 }
-.links-container {
+
+
+/* -----HOMELINKS ----- */
+
+.homelinks-container {
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   line-height: 10rem;
-  margin-top: -60%;
-  
+  margin-top: -65%;
+}
+
+.homelinks {
+  color:#feb239;
+  font-weight: 900;
 }
 
 /* ----- SEEDLINGS ----- */
@@ -87,6 +101,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: sticky;
+  margin-bottom: 2rem;
 }
 .intro h3{
   margin-top: 5rem;

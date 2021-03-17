@@ -1,16 +1,14 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Projects from "../pages/Projects";
+
 
 const Links = () => {
   return (
-    <div className="other-links-container about">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/projects">Projects</Link>
+    <div className="otherlinks-container aboutlinks-container contactlinks-container projects-container">
+      <Link className="otherlinks" to="/">Home</Link>
+      <Link className="otherlinks" to="/about">About</Link>
+      <Link className="otherlinks" to="/contact">Contact</Link>
+      <Link className="otherlinks" to="/projects">Projects</Link>
     </div>
   );
 };

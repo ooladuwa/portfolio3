@@ -1,5 +1,5 @@
 * {
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* ----- INTRO ----- */
@@ -21,7 +21,11 @@
 /* ----- SOCIALS ----- */
 .socialsContainer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+}
+.socialIcon {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* ----- ABOUT CONTAINER ----- */
@@ -30,29 +34,37 @@
   flex-direction: row;
   background-color: #ffffff;
 }
-.about {
+.aboutlinks-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 2rem 2rem 2rem;
+  line-height: 5rem;
+  border-right: 3px solid black
+}
+.contactButton {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 7%;
 }
 
-/* -----CONTACT CONTAINER ----- */
-.contact-container {
-  background-color: #ffffff;
+/* -----ABOUTINFO ----- */
+.aboutInfo-container {
   display: flex;
-  flex-direction: row;
-  background-image: url("https://i.ibb.co/ymzjNXw/border3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 50vw;
-  padding-left: 20rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.class2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-  /* line-height: 7rem; */
-  /* margin: 2rem; */
-  /* padding: 2rem; */
+.aboutInfo-container h3 {
+  margin-top: 1rem;
+}
+.aboutInfo-container p {
+  width: 40%;
+  
+}
+.najPhoto {
+  width: 18%;
+  border-radius: 50%;
+  margin: 1.5rem 1.5rem;
 }
 
 /*----- OTHER LINKS ----- */
@@ -63,7 +75,7 @@
   justify-content: center;
   align-items: center;
   line-height: 10rem;
-  margin-left: -20rem;
-  margin-top: -17rem;
   padding: 2rem;
 }
+
+/* -----PROJECTS ----- */
