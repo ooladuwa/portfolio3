@@ -29,8 +29,8 @@
 }
 .socials-button {
   margin-right: 1rem;
-  border: 1px solid #38FF4F;
-  
+  border: 1px solid #38ff4f;
+  border-radius: 7%;
 }
 
 /* ----- ABOUT CONTAINER ----- */
@@ -44,14 +44,15 @@
   flex-direction: column;
   padding: 10rem 2rem 2rem 2rem;
   line-height: 10rem;
-  border-right: 3px solid#38FF4F;;
+  border-right: 1px solid#38FF4F;
 }
 .about-otherLinks {
-  color: #38FF4F;
+  color: #38ff4f;
 }
 .contactButton {
   padding: 1rem;
   margin: 1rem;
+  border: 1px solid #38ff4f;
   border-radius: 7%;
 }
 
@@ -67,12 +68,13 @@
 }
 .aboutInfo-container p {
   width: 40%;
-  
 }
 .najPhoto {
   width: 18%;
+  border: 1px solid #38ff4f;
   border-radius: 50%;
-  margin: 1.5rem 1.5rem;
+  margin: 0.5rem 1.5rem;
+
 }
 
 /*----- OTHER LINKS ----- */

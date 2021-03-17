@@ -6,7 +6,7 @@ const aboutInfo = () => {
   return (
     <div className="aboutInfo-container">
       <h1>Onaje Oladuwa</h1>
-      <h6>aka</h6> <h3>"Naj"</h3>
+      <h3>"Naj"</h3>
       <img
         className="najPhoto"
         src="https://i.ibb.co/25gMRY2/IMG-0057-jpeg-2.jpg"
