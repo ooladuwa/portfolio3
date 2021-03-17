@@ -63,6 +63,7 @@ a:hover {
   /* background-color: #feb239; */
   background-image: url("https://i.ibb.co/1vLLJwL/grass-background-1.jpg");
   /* background-image: url("https://i.ibb.co/S0SDL44/grassland-tree-background.jpg"); */
+  /* background-image: url("https://i.ibb.co/02T9VJs/concrete-background-1.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -75,7 +76,6 @@ a:hover {
 .flower-border-img {
   max-width: fit-content;
 }
-
 
 /* -----HOMELINKS ----- */
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .homelinks {
-  color:black;
+  color: black;
   font-weight: 900;
 }
 
@@ -106,8 +106,9 @@ a:hover {
 .intro {
   color: black;
   font-weight: 700;
+  margin-top: 2rem;
 }
-.intro h3{
+.intro h3 {
   margin-top: 5rem;
 }
 .intro-p {
@@ -124,7 +125,7 @@ a:hover {
 .seedling-img {
   max-width: max-content;
   margin-bottom: 2rem;
-  margin-top: -10rem;
+  margin-top: -14rem;
 }
 
 /* ----- SUNSHINE ----- */
@@ -133,6 +134,4 @@ a:hover {
 .sunshine-img {
   max-width: min-content;
   margin-top: -15rem;
-  
 }
-
